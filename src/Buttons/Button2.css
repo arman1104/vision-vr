@@ -1,0 +1,10 @@
+.create-account {
+  /* background-color: #ff6b35; */
+  background-image: linear-gradient(to right, #f97316, #9a3412);
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}

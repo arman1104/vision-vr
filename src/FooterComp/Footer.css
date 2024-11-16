@@ -1,0 +1,92 @@
+.footer-container {
+  margin-top: 5rem;
+  border-top: 1px solid #3f3f46;
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.list-container1 h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.list-container1 ul {
+  list-style-type: none;
+}
+
+.list-container1 li {
+  font-size: 0.8rem;
+  color: rgb(190, 180, 180);
+  margin: 0.3rem 0;
+}
+
+.link1 {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-container2 h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.list-container2 ul {
+  list-style-type: none;
+}
+
+.list-container2 li {
+  font-size: 0.8rem;
+  color: rgb(190, 180, 180);
+  margin: 0.3rem 0;
+}
+
+.link2 {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-container3 h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.list-container3 ul {
+  list-style-type: none;
+}
+
+.list-container3 li {
+  font-size: 0.8rem;
+  color: rgb(190, 180, 180);
+  margin: 0.3rem 0;
+}
+
+.link3 {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Media Query for mobile */
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 6rem;
+  }
+
+  .list-container1 {
+    width: 40%;
+  }
+}

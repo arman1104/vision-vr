@@ -1,0 +1,123 @@
+.pricing-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-container h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.pricing-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
+.pricing-card-item {
+  border: 1px solid #3f3f46;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  width: 40%;
+}
+
+.pricing-card-item h2 {
+  margin: 0.6rem 1.2rem;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.pricing-card-item span {
+  font-size: 0.8rem;
+  font-weight: 150;
+}
+
+.most-popular {
+  background-color: #9a3412;
+  border-radius: 2px;
+  margin-left: 0.4rem;
+}
+
+.pricing-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-list-container li {
+  padding: 10px 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-list-container span {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.pricing-card-item button {
+  margin: 2rem 1rem 0;
+  padding: 0.6rem 3rem;
+  background-color: transparent;
+  border: 1px solid #c02c21;
+  border-radius: 0.5rem;
+}
+
+.pricing-card-item button:hover {
+  background-color: #b33c0dfa;
+}
+
+/* Media Query for mobile */
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .pricing-card-container {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card-item {
+    width: 100%;
+  }
+
+  .pricing-container h2 {
+    font-size: 2.5rem;
+  }
+  .pricing-card-item h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Media Query  for big mobile */
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .pricing-card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pricing-card-item {
+    width: 45%;
+  }
+  .pricing-card-item h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Media query for Tab */
+
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .pricing-card-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .pricing-container h2 {
+    font-size: 2rem;
+  }
+}
