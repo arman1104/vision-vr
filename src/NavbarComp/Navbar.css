@@ -36,6 +36,9 @@
   display: flex;
   gap: 25px;
 }
+.list-container :hover {
+  color: rgb(206, 122, 206);
+}
 
 .list-container li {
   list-style-type: none;
