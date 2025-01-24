@@ -20,7 +20,7 @@ const Navbar = () => {
           style={openMenu ? { marginBottom: "20px" } : {}}
         >
           <img src={logo} alt="Logo" />
-          <span>VirtualR</span>
+          <span>Vision VR</span>
         </div>
 
         <ul className="list-container">
